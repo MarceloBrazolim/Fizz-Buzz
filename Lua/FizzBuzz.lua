@@ -6,6 +6,6 @@ for x = 1, 100 do
     elseif (x % 5 == 0) then
         print("Buzz");
     else
-        print(x or fb)
+        print(x)
     end
 end
